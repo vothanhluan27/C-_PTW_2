@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('brand', 255);
             $table->integer('price');
             $table->text('description');
-            $table->string('status', 255);
+            $table->string('status', 100);
             $table->tinyInteger('feature');
             $table->timestamps();
         });

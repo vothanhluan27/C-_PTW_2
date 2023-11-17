@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomAuthController;
+use App\Http\Controllers\Admin\AdminNewsController;
+use App\Http\Controllers\Index\HomeCustomController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,9 +20,9 @@ use App\Http\Controllers\CustomAuthController;
 // Route::get('/', function () {
 //     return view('welcome');
 // });
-Route::get('/view', function () {
-    return view('firstView');
-});
+// Route::get('/view', function () {
+//     return view('firstView');
+// });
 
 
 /*
@@ -33,3 +37,25 @@ Route::post('custom-login', [CustomAuthController::class, 'customLogin'])->name(
 Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
 Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');
 Route::get('signout', [CustomAuthController::class, 'signOut'])->name('signout');
+
+/*
+|--------------------------------------------------------------------------
+| ADMIN
+|--------------------------------------------------------------------------
+*/
+Route::get('/admin', [AdminNewsController::class, 'index'])->name('admin');
+Route::get('/admin/create', [AdminNewsController::class, 'create'])->name('create');
+Route::post('/admin/store/', [AdminNewsController::class, 'store'])->name('store');
+Route::get('/admin/edit/{products}', [AdminNewsController::class, 'edit'])->name('edit');
+Route::put('/admin/edit/{products}',[AdminNewsController::class, 'update'])->name('update');
+// Route::get('/admin/edit',[AdminNewsController::class, 'test'])->name('test');
+Route::delete('/admin/{products}',[AdminNewsController::class, 'destroy'])->name('destroy');
+// Route::get('/admin/create', [AdminNewsController::class, 'getAllManu'])->name('getAllManu');
+
+
+/*
+|--------------------------------------------------------------------------
+| INDEX
+|--------------------------------------------------------------------------
+*/
+Route::get('/home', [HomeCustomController::class, 'index'])->name('index');

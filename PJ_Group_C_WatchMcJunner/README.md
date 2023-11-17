@@ -70,11 +70,11 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------------------------------------------------- -->
 
-Launch the project
+___Launch the project___
 
 1. Start up wamp server
 2. Add database
-3. Rename the database to:
+3. Rename and change the datab,ase to:
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
