@@ -1,42 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ asset('../css/home.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/header.css') }}">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
-    <!-- 0 -->
-	<!-- Bootstrap -->
-	<!-- <link type="text/css" rel="stylesheet" href="{{ asset('css/index/bootstrap.min.css') }}" /> -->
-	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> -->
-
-    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Laravel 10 Custom Login and Registration</title>
+    <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div id="top"></div>
     <div class="wrapper">
-        <!-- <div id="header">
-            <a href="" class="nav-logo">logo</a>
-            <div id="nav-button">
-                <a href=""><i class="fa fa-heart"></i></a>
-                <button class="btn white-btn"><a href="login" class="login">login</a></button>
-            </div>
-        </div> -->
-
-
-
         <div id="menu">
             <ul>
-                <li><a href="#" class="link active">Danh Mục</a></li>
-                <li><a href="#" class="link">Đồng hồ Nam</a></li>
-                <li><a href="#" class="link">Đồng hồ Nữ</a></li>
-                <li><a href="#" class="link">Đồng hồ Đôi</a></li>
+                <li><a href="home" class="link active">Danh Mục</a></li>
+                <li><a href="watch_boy" class="link">Đồng hồ Nam</a></li>
+                <li><a href="watch_girl" class="link">Đồng hồ Nữ</a></li>
+                <li><a href="watch_couple" class="link">Đồng hồ Đôi</a></li>
                 <li><a href="hot" class="link">Hot</a></li>
                 <li><a href="sale" class="link">Sale </a></li>
                 <div class="search">
@@ -226,41 +225,6 @@
             </div>
 
         </div>
-        <a href="#top" class="toptop">
-            <i class="fa-solid fa-arrow-up-from-bracket"></i>
-        </a>
 </body>
-<script>
-    const arrowleft = document.querySelector('.arrow-left');
-    const arrowext = document.querySelector('.arrow-next');
-    const listth = document.querySelector('.list-item-th');
-    const listitemth = document.querySelectorAll('.list-item-th .item-th');
-
-    var translateY = 0;
-    var count = listitemth.length
-    console.log(count);
-
-    arrowleft.addEventListener('click', function(event) {
-        event.preventDefault()
-
-        if (count == 4) {
-            // Xem hết
-            return false
-        }
-        translateY += 118;
-        listth.style.transform = `translateY(${translateY}px)`
-        count++;
-    })
-    arrowext.addEventListener('click', function(event) {
-        event.preventDefault()
-        if (count == 1) {
-            // Xem hết
-            return false
-        }
-        translateY += -118;
-        listth.style.transform = `translateY(${translateY}px)`;
-        count--;
-    })
-</script>
 
 </html>

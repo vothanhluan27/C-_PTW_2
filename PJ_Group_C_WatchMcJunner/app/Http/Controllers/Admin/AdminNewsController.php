@@ -159,4 +159,13 @@ class AdminNewsController extends Controller
     //     return view('admin.product-edit')->with('products', $manu);
     // }
 
+    // public function manu()
+    // {
+    //     $products = Products::latest()->paginate(5);
+
+
+    //     return view('admin.manufactures', compact('products'))
+    //         ->with('i', (request()->input('page', 1) - 1) * 5);
+    // }
+
 }
