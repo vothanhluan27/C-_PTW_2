@@ -1,0 +1,195 @@
+    1  git -v
+    2  cd /d C:\
+    3  $ git push -u origin master
+    4  git config --global --add safe.directory C:/
+    5  cd /d C:\SW\Soft ware\Test Smartgit\ts
+    6  git push origin master
+    7  git init
+    8  git.exe push --porcelain --progress --recurse-submodules=check origin refs/heads/main:refs/heads/main
+    9  .git/config
+   10  git remote set-url origin https://github.com/thanhluan2706/project.git
+   11  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
+   12  cd /d C:\SW\Soft ware\Test Smartgit\test-token
+   13    git config user.email "21211tt3881@mail.tdc.edu.vn"
+   14  git remote set-url origin https://github.com/thanhluan2706/test.git
+   15  git push
+   16  cd /d C:\SW\Soft ware\Test Smartgit
+   17  cd /d C:\Program Files\SmartGit
+   18  cd /d C:\Users\ADMIN\AppData\Roaming\syntevo\SmartGit\21.2
+   19  cd /d C:\SW\Soft ware\Test Smartgit\test
+   20  git pull --rebase origin main
+   21  git push -u origin main 
+   22  git credential-osxkeychain
+   23  git config --global credential.helper cache
+   24  git config --global credential.helper 'store --file ~/.my-credentials'
+   25  git config user.name "thanhluan2706"
+   26  git config credential.username "thanhluan2706"
+   27  git push -u origin master
+   28  git config --global credential.useHttpPath true
+   29  git config --global -e
+   30  git status
+   31  git add
+   32  git commitb -m "cr"
+   33  git congif --global user.name "thanhluan2706"
+   34  git config --global user.name "thanhluan2706"
+   35  git config --global user.email "21211tt3881@mail.tdc.edu.vn"
+   36  git push -u https://github.com/thanhluan2706/test.git master
+   37  git push -u "https://github.com/thanhluan2706/test.git" master
+   38  git remote -v
+   39  origin https://github.com/thanhluan2706/test.git
+   40  cd /dD:\Back-End 2\week5\laravel\example-app
+   41  php artisan --version
+   42  cd /d D:\Back-End 2\week5\laravel\example-app
+   43  cd /d D:\Back-End 2\PJ
+   44  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2
+   45  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj
+   46  php --version
+   47  composer --version
+   48  composer create-project laravel/laravel example-app
+   49   php artisan --version
+   50      php artisan make:migration create_products_table --create=tasks
+   51  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\example-app
+   52      php artisan make:migration create_products_table --create=products
+   53  D:\Back-End 2\PJ\example-app
+   54  php artisan make:controller TestNewsController
+   55  php artisan make:controller ProductController --resource --model=Product
+   56  php artisan make:migration create_products2_table --create=products2
+   57  php artisan make:migration create_flights_table --create=flights
+   58  cd /d D:\Back-End 2\PJ\example-app
+   59  php -v
+   60  composer -v
+   61  php artisan make:migration create_test_product_table --create=test_product
+   62  php artisan make:migration create_products_table --create=products
+   63  php artisan make:controller ProductController --resource --model=Products
+   64  php artisan route:cache
+   65  cd /dC:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\PJ-GroupF
+   66  php artisan make:migration create_product_table --create=product
+   67  php artisan make:model Product
+   68  C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\PJ-GroupF
+   69  php artisan make:controller ProductController --resource
+   70  php artisan make:controller IndexController --resource
+   71  php artisan make:migration create_manufactures_table --create=manufactures
+   72  php artisan make:migration create_protypes_table --create=protypes
+   73  php artisan make:model Manufactures
+   74  php artisan make:model Protypes
+   75  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\DEMO\laravel-ecommerce-project-master
+   76  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\demo\laravel-demo
+   77  composer update spatie/laravel-searchable
+   78  php artisan make:migration create_contacts_table
+   79  php artisan make:mail ContactMail
+   80  php artisan key:generate
+   81  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\ex\Project\Project
+   82  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\PJ-GroupF
+   83  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\git_pj
+   84  git add .
+   85  git commit
+   86  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\git_pj\PJ-Group-F
+   87  npm install -g @angular/cli
+   88   npm install -g @angular/cli
+   89  ng new demo-angular-app
+   90  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\test-angular-app
+   91  cd /d 
+   92  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\ProjectAngular\material
+   93  ng new material
+   94   ng serve --open
+   95  node -v
+   96  npm -v
+   97  C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ
+   98  cd/ d C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ
+   99  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ
+  100  ng new demo-cart
+  101  ng g c header --skipTests
+  102  ng g c body
+  103  ng g c summary
+  104  ng g c list
+  105  ng g c code
+  106  npm fix
+  107  npm help
+  108  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ\angular-shopping-cart-example-5
+  109   npm audit fix --force
+  110  ng update
+  111  C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\Travel-agency-Angular-master
+  112  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\Travel-agency-Angular-master
+  113  npm audit fix
+  114  ng serve --open
+  115  C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ\demo-angular-ap
+  116  ng g c booking
+  117  ng g c packages
+  118  ng g c gallary
+  119  ng g c footer
+  120  ng g c header
+  121  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ\demo-cart
+  122  ng serce
+  123  npm i
+  124  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\Event-Management-App-Angular-master
+  125  npm install
+  126  ng serve --port
+  127  C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\ngx-chess-board-master
+  128  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\Trash\ngx-chess-board-master
+  129  cd /d C:\SW\HK IV 2022-2023 Present\Back-End 2\pj\Project\demo\PJ-GroupF
+  130  php server
+  131  php serve
+  132  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ\Demo\demo
+  133  cd /d C:\SW\HK IV 2022-2023 Present\Front-End 2\PJ\demo-angular-app
+  134  ng serve
+  135   php artisan serve
+  136  cd /d C:\SW\HK IV 2022-2023\Back-End 2\pj\Project\test_pj
+  137  artisan -v
+  138  cd /d C:\wamp64\www\CMS-T4\CĐ_CMS_Group_C
+  139  git branch -D 1_21_PhamTanLoc
+  140  $ git checkout master
+  141  git checkout master
+  142  cd /d https://docs.google.com/spreadsheets/d/1A9BNx4hN5BSrozTV4MjUi4ci_KiZ5IpPO2p32EjGsck/edit#gid=2060947699
+  143  composer create-project laravel/laravel PJ_Group_C_WatchMcJunner
+  144  C:\SW\HK V 2023-2024 Present\PTW-2\PJ\Repo\CĐ_PTW_2
+  145  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\PJ\Repo\CĐ_PTW_2
+  146  php artisan -v
+  147  php artisan make:controller CustomAuthController
+  148  php artisan make:migration create_products_table
+  149  php artisan serce
+  150  C:\SW\HK V 2023-2024 Present\PTW-2\PJ\Repo\CĐ_PTW_2\PJ_Group_C_WatchMcJunner
+  151  php artisan make:migration create_order_detail_table
+  152  php artisan make:migration create_order_table
+  153  php artisan make:migration create_user_table
+  154  php artisan make:migration create_wish_list_table
+  155  php artisan make:migration create_comment_table
+  156  php artisan make:migration create_users_private_table
+  157  php artisan make:migration create_category_table
+  158  php artisan make:migration create_contact_us_table
+  159  php artisan make:migration create_news_table
+  160  cd d/ C:\SW\HK IV 2022-2023\Back-End 2\pj\Project\test_pj\PJ-GroupF
+  161  ưerfq
+  162  php artisan serveHow to run 2 laravel servers at the same time
+  163  C:\SW\HK V 2023-2024 Present\PTW-2\Demo\edu-system
+  164  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\Demo\edu-system
+  165  php artisan make:model Products
+  166  cd /d C:\SW\HK IV 2022-2023\Back-End 2\pj\Project\PJ-GroupF
+  167  cd /d http://127.0.0.1:8000
+  168  php artisan serve 
+  169  php artisan make:controller IndexCustomController
+  170  composer install
+  171  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\Demo\BE2_Laravel_Project\Project_BE2
+  172  C:\SW\HK V 2023-2024 Present\PTW-2\Demo\Select value
+  173  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\Demo\Select value
+  174  git clone https://gitlab.com/SoengSouy/laravel_dashboard_version13.git
+  175  composer update
+  176  cp .env.example .env
+  177  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\Demo\Select value\laravel_dashboard_version13
+  178  php artisan make:migration create_brand_table
+  179  php artisan make:migration create_type_table
+  180  php artisan migrate:rollback
+  181  php artisan migrate
+  182  cd /d C:\SW\HK IV 2022-2023\Back-End 2\pj\Project\test_pj\PJ-GroupF
+  183  php artisan make:controller BrandController
+  184  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\Demo\watch_website
+  185  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\PJ\Repo\CĐ_PTW_2\PJ_Group_C_WatchMcJunner 
+  186  php artisan
+  187  php artisan serve
+  188  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\PJ\Repo\CĐ_PTW_2\PJ_Group_C_WatchMcJunner
+  189  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\PJ\Repo\PJ_Group_C_WatchMcJunner
+  190  php artisan make:seeder UsersTableSeeder
+  191  php artisan make:seeder ProductsTableSeeder
+  192  cd /d C:\SW\HK V 2023-2024 Present\PTW-2\Demo\New folder\watch_website
+  193  php artisan serve --port=8080
+  194  php artisan make:factory ProductFactory
+  195  php artisan db:seed
