@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+#wrapper{
+    /*Khinh thước màng hình 1280 * 720 */
+    width: 100%;
+    height: 100vh;
+}
+#header{
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-logo {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#nav-button a{
+    font-size:25px; 
+    color:rgb(19, 17, 17);
+    text-align: center;
+}
+#nav-button a i{
+    padding-right: 15px;
+}
+#nav-button .btn{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(72, 67, 67, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+#nav-button .btn .login{
+    text-decoration: none;
+    color: black;
+   font-size: 15px;
+}
+.btn:hover{
+    background: rgba(26, 23, 23, 0.3);
+}
+#menu ul {
+    display: flex; 
+    list-style-type: none;
+}
+#menu ul li .link{
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 15px;
+    margin: 0 25px;
+    padding: 10px;
+}
+#menu{
+    border-top: 2px solid;
+    padding: 45px 0px 0px 80px;
+    border-bottom: 2px solid;
+    background: black;
+    padding-bottom: 20px;
+}
+.search{
+    background-color: #888484;
+    width: 220px;
+    height: 30px;  
+    border-radius:50px ; 
+    padding:2px 25px;
+    padding-left: 10px;
+}
+.search input{
+    width: 164px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+}
+.link:hover, .active{
+    border-bottom: 2px solid white;
+}
+/* Hot*/
+.hot-header {
+   padding-bottom: 120px;
+ }
+.hot-header .hot-row .col{
+ display: flex;
+ padding-top: 25px;
+ padding-bottom: 40px;
+}
+.hot-header .hot-row {
+    text-align: center;
+    padding-left: 85px;
+    padding-top: 50px; 
+}
+.hot-header .row .icon{
+   padding: 20px;
+   font-size: 20px;
+}
+.hot-header .row .icon i{
+    font-size: 35px;
+ }
+.loc{
+    text-align: center;
+}
+.boloc{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.giatien{
+    padding-left: 15px;
+}
+.chon-th{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+.chon-th img{
+    width: 110px;
+    height: 50px;
+    padding: 10px;
+}
+.chon-th  img:hover {
+    box-shadow: 2px 2px 2px 2px yellow;
+}
+.chonmau {
+    display: flex;
+    padding-left: 100px;
+}
+.list-sanpham{
+    display: flex;
+    border-left: 2px solid gray;
+    padding-left: 30px;
+    width: 400px    ;
+    height: 95%;
+
+}
+.list-sanpham .item{
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+    width: 250px;
+    height: 450px;
+}
+.hang1{
+    display: flex;
+}
+.list-sanpham .item img{
+    width: 200px;
+    height: 170px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 17px;
+    border-radius: 5px;
+    transition: scale 400ms;
+}
+.item:hover img {
+    scale:130%;
+}
+.item:hover{
+    box-shadow: 5px 1px rgb(210, 163, 60);
+}
+.list-sanpham .item .name{
+    color: black;
+    font-weight: bold;
+    margin-top: 21px;
+    border-radius: 10px;
+    /* background: #fdeaea; */
+    padding: 10px;
+    height: 80px;
+
+}
+.list-sanpham .item .price{
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;  
+    border-radius: 10px;
+    /* background: #fdeaea; */
+    padding: 10px;
+}
+.list-sanpham .item .add{
+    font-weight: bold;
+    margin-top: 20px; 
+    border-radius: 5px;
+    border: none;  
+    transition: 0.4s;
+}
+.list-sanpham .item .add a{
+    color: #cf2828;
+    text-decoration: none;
+}
+.add:hover{
+    padding: 10px;
+    background: #f1a3a3;
+}
+/* foorter */
+#foorter {
+    width: 100%;
+    height: 322px;
+    margin-top: 70px;
+    background: rgb(9, 9, 9);
+    padding: 0px 63px;
+    padding-top: 57px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+#foorter .box{
+    width: 250px;
+}
+#foorter .box h3{
+    padding-bottom: 20px;
+    color: white;
+}
+#foorter .box .logo{
+    padding-bottom: 20px;
+}
+#foorter .box .quick-menu .icon{
+    margin-bottom: 12px;
+}
+#foorter .box .quick-menu, .icon a{
+    text-decoration: none;
+    color: white;
+}
+#foorter .box .nav{
+    display: flex;
+    list-style: none;
+    padding-left: 50px;
+    color: beige;
+}
+#foorter .box .nav a{
+   font-size: 20px;
+   padding: 10px;
+   color: #fff;
+}
